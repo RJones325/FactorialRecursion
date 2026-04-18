@@ -33,11 +33,13 @@ namespace FactorialRecursion.Services.BusinessLogicLayer
         /// </summary>
         internal BigInteger SolveRecursiveFactorial(int factorial)
         {
+            // Base case
             if (factorial == 0 || factorial == 1)
             {
                 return 1;
             }
 
+            // Recursive call
             return factorial * SolveRecursiveFactorial(factorial - 1);
         }
     }
