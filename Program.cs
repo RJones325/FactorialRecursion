@@ -33,7 +33,7 @@ namespace FactorialRecursion
     internal static class Utility
     {
         /// <summary>
-        /// Reads an integer from the console.
+        /// Reads an integer from the console. 
         /// </summary>
         internal static int ReadIntFromConsole(string prompt)
         {
